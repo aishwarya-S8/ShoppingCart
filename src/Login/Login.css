@@ -1,0 +1,25 @@
+.email {
+  padding-left: 43%;
+  margin-right: 65px;
+  margin-bottom: 60px;
+}
+.login {
+  padding-top: 10%;
+  padding-left: 50%;
+  padding-bottom: 40px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 28px;
+}
+.password {
+  padding-left: 43%;
+  margin-right: 35px;
+}
+.loginBtn {
+  /* padding-left: 50%; */
+  margin-top: 4%;
+  padding: 10px;
+  margin-left: 50%;
+}
+.loginStyle {
+  border-color: red;
+}

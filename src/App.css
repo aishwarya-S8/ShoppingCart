@@ -1,38 +1,43 @@
-.App {
+.header {
+  display: flex;
+  margin-top: 9px;
+  align-items: center;
+}
+.fontLink {
+  font-family: "Tilt Prism", cursive;
+  font-size: 40px;
+  background-color: powderblue;
+  padding-left: 2%;
+  display: flex;
+}
+.cartStyle {
+  position: absolute;
+  left: 14;
+  right: 14;
+  width: 14;
+  height: 14;
+  border-radius: 7;
+  font-size: 12;
+  font-weight: 400;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.searchText {
+  padding-right: 80%;
+  margin-left: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.likeBtn {
+  margin-left: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerBottom {
+  background-color: azure;
+  padding: 5px;
+  height: 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 25px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search {
+  margin-left: 100%;
+  padding-left: 185%;
+  margin-top: -20px;
 }
